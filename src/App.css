@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+--color-nav-131921: #131921;
+--color-navborder-3b4149: #3b4149;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Header Part */
+.header-top-strip{
+  background-color: var(--color-nav-131921);
+  border-bottom: 1px solid var(--color-navborder-3b4149);
+}
+
+.header-upper {
+  background-color: var(--color-nav-131921);
+}
+/* Header Part End Here*/
